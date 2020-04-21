@@ -45,9 +45,3 @@ class FlatArray
         }
     }
 }
-
-/* $input = [[1, 2, [3]], 4, [[[5, [6]]]]];
-$flatter = new FlatArray();
-$flatter->flatArray($input);
-$result = $flatter->getResult();
-print_r($result); */
