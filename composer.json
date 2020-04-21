@@ -1,0 +1,21 @@
+{
+    "name": "ricmin/flat-array",
+    "version": "1.0.0",
+    "description": "Flat nested arrays of numbers into an array of integers",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Riccardo",
+            "email": "riccardo19@protonmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5"
+    },
+    "autoload": {
+        "psr-4": {"ricmin\\FlatArray\\": "src/"}
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
